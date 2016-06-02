@@ -184,7 +184,9 @@ h2:after{
     color: #fff;
 }
 
-
+#main{
+    margin-bottom: 20px;
+}
 .main-nav li,
 .default-nav li{
     display:inline-block;
@@ -266,7 +268,7 @@ a:active {
 .btn:link,                  /* create button */
 .btn:visited,
 input[type = submit]{ 
-    padding: 12px 25px;   /* top-bottom and left-right */
+    padding: 14px 25px;   /* top-bottom and left-right */
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
@@ -374,27 +376,27 @@ input[type = submit]{
 /*---------------------------*/
 /* SUBSCRIBE / NEWSLETTRE */
 /*---------------------------*/
-
-.box-size{
-    
+#email{
+    float: left;
+    height: 47px;
+    width: 72.1%; 
 }
+#subs-btn{
+    float: right;
+    height: 50px;
+    margin-top: 1.9%;
+}
+
 
 .subscribe{
     background-color: #f4f4f4;
-    height: 185px;    
-}
-
-.sign-up{
-    text-align: center;
-    height: 65px;
-    background-color:#fff; 
+    height: 200px;    
 }
 
 .total-group{
-    width: 500px;
+    width: 489px;
     height: 50px;
-    margin: 20px 20px;
-    border: 2px solid #000;
+    margin-left: 25%;
 }
 
 /*------------------------*/
